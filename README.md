@@ -22,7 +22,26 @@ This is a backend (API) automation testing project using Postman and Newmanl for
 - Running the tests: in order to execute the tests in the Scenario collection, run the following command from the terminal, while located at the main directory (qa_backend_challenge):
 	newman run './e2e/Square Payments Scenarios.postman_collection.json' -e  './API/envVariables/Square Payments PROD.postman_environment.json' -r htmlextra --reporter-htmlextra-export './API/reports'
 
+- The tests will run in the following order:
 
+	Create payment source auth
+	Create Payment
+	Get specific payment
+	Get all payments
+	Update payment
+	Cancel payment 
+	----
+	Create payment
+	Update Payment with tip
+	Complete Payment
+	Refund Payment
+	Get Payment Refund
+	List all payment refunds
+	---
+	Create payment
+	Complete Payment
+	Refund payment higher amount
+	Cancel Payment non existing
 
 
 
