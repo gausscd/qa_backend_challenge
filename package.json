@@ -1,0 +1,19 @@
+{
+  "name": "qa_backend_challenge",
+  "version": "1.0.0",
+  "description": "This is a backend (API) automation testing project using Postman and Newmanl for the Square Payments API (https://developer.squareup.com/reference/square/payments-api).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gausscd/qa_backend_challenge.git"
+  },
+  "author": "Felipe Herrera Marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gausscd/qa_backend_challenge/issues"
+  },
+  "homepage": "https://github.com/gausscd/qa_backend_challenge#readme"
+}
